@@ -1,0 +1,54 @@
+22:27:08:756  INFO 14596 --- [main] com.hmall.trade.TradeApplication         : Starting TradeApplication using Java 11.0.25 on PeiDi with PID 14596 (C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\trade-service\target\classes started by 18082 in C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall)
+22:27:08:759 DEBUG 14596 --- [main] com.hmall.trade.TradeApplication         : Running with Spring Boot v2.7.12, Spring v5.3.27
+22:27:08:759  INFO 14596 --- [main] com.hmall.trade.TradeApplication         : The following 1 profile is active: "local"
+22:27:09:584  INFO 14596 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=617ae161-926b-3012-98e4-1e472aa397d0
+22:27:09:817  INFO 14596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+22:27:09:818  INFO 14596 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+22:27:09:818  INFO 14596 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+22:27:09:818  INFO 14596 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+22:27:09:818  INFO 14596 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+22:27:10:863  INFO 14596 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+22:27:10:870  INFO 14596 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+22:27:10:871  INFO 14596 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+22:27:10:969  INFO 14596 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+22:27:10:969  INFO 14596 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2178 ms
+22:27:11:106  INFO 14596 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'item-service' URL not provided. Will try picking an instance via load-balancing.
+22:27:11:970  INFO 14596 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'cart-service' URL not provided. Will try picking an instance via load-balancing.
+22:27:13:531  INFO 14596 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:27:13:551  INFO 14596 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+22:27:14:899  INFO 14596 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:27:15:017  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 485066ca-cdc9-4b73-8451-b0d8fd31a325
+22:27:15:047  INFO 14596 --- [main] org.reflections.Reflections              : Reflections took 17 ms to scan 1 urls, producing 3 keys and 6 values 
+22:27:15:066  INFO 14596 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 4 keys and 9 values 
+22:27:15:074  INFO 14596 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 3 keys and 10 values 
+22:27:15:076  WARN 14596 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:27:15:082  INFO 14596 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 5 values 
+22:27:15:096  INFO 14596 --- [main] org.reflections.Reflections              : Reflections took 12 ms to scan 1 urls, producing 1 keys and 7 values 
+22:27:15:104  INFO 14596 --- [main] org.reflections.Reflections              : Reflections took 6 ms to scan 1 urls, producing 2 keys and 8 values 
+22:27:15:106  WARN 14596 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+22:27:15:107  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] RpcClient init label, labels = {module=naming, source=sdk}
+22:27:15:108  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+22:27:15:108  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+22:27:15:109  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+22:27:15:110  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Try to connect to server on start up, server: {serverIp = '192.168.174.129', server main port = 8848}
+22:27:16:280  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Success to connect to server [192.168.174.129:8848] on start up, connectionId = 1737383235733_192.168.174.1_60798
+22:27:16:281  INFO 14596 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Notify connected event to listeners.
+22:27:16:282  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+22:27:16:282  INFO 14596 --- [main] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$974/0x0000000800736440
+22:27:16:328  INFO 14596 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+22:27:16:335  INFO 14596 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP trade-service 192.168.174.1:8085 register finished
+22:27:16:835  INFO 14596 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Receive server push request, request = NotifySubscriberRequest, requestId = 20
+22:27:16:837  INFO 14596 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [485066ca-cdc9-4b73-8451-b0d8fd31a325] Ack server push request, request = NotifySubscriberRequest, requestId = 20
+22:27:17:604  INFO 14596 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+22:27:17:605  INFO 14596 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+22:27:17:608  INFO 14596 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+22:27:17:624  INFO 14596 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+22:27:17:688  INFO 14596 --- [main] com.hmall.trade.TradeApplication         : Started TradeApplication in 10.645 seconds (JVM running for 11.638)
+22:27:21:266  INFO 14596 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:27:21:266  INFO 14596 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+22:27:21:267  INFO 14596 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+22:27:34:973  INFO 14596 --- [http-nio-8085-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+22:27:35:234  INFO 14596 --- [http-nio-8085-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+22:27:35:239 DEBUG 14596 --- [http-nio-8085-exec-3] c.h.trade.mapper.OrderMapper.selectById  : ==>  Preparing: SELECT id,total_fee,payment_type,user_id,status,create_time,pay_time,consign_time,end_time,close_time,comment_time,update_time FROM `order` WHERE id=?
+22:27:35:255 DEBUG 14596 --- [http-nio-8085-exec-3] c.h.trade.mapper.OrderMapper.selectById  : ==> Parameters: 1654779387523936258(Long)
+22:27:35:274 DEBUG 14596 --- [http-nio-8085-exec-3] c.h.trade.mapper.OrderMapper.selectById  : <==      Total: 1
