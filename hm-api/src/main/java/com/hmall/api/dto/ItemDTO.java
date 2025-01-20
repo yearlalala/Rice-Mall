@@ -1,4 +1,5 @@
-package com.hmall.cart.domain.dto;
+package com.hmall.api.dto;
+
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -32,3 +33,4 @@ public class ItemDTO {
     @ApiModelProperty("商品状态 1-正常，2-下架，3-删除")
     private Integer status;
 }
+
