@@ -33,7 +33,6 @@ public class PayController {
         }
         return payOrderService.applyPayOrder(applyDTO);
     }
-
     @ApiOperation("尝试基于用户余额支付")
     @ApiImplicitParam(value = "支付单id", name = "id")
     @PostMapping("{id}")
