@@ -1,17 +1,17 @@
-19:36:58:275  INFO 8132 --- [main] c.h.service.impl.ItemServiceImplTest     : Starting ItemServiceImplTest using Java 11.0.25 on PeiDi with PID 8132 (started by 18082 in C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-service)
-19:36:58:276 DEBUG 8132 --- [main] c.h.service.impl.ItemServiceImplTest     : Running with Spring Boot v2.7.12, Spring v5.3.27
-19:36:58:276  INFO 8132 --- [main] c.h.service.impl.ItemServiceImplTest     : The following 1 profile is active: "dev"
-19:36:59:344  INFO 8132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-19:36:59:347  INFO 8132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-19:36:59:377  INFO 8132 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
-19:37:02:470  INFO 8132 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
-19:37:03:073  INFO 8132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
-19:37:03:077  INFO 8132 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
-19:37:03:119  INFO 8132 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
-19:37:03:343  INFO 8132 --- [main] c.h.service.impl.ItemServiceImplTest     : Started ItemServiceImplTest in 5.408 seconds (JVM running for 6.47)
-19:37:03:955  WARN 8132 --- [main] com.hmall.service.impl.ItemServiceImpl   : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9d2c0ed] Transaction not enabled
-19:37:03:963  INFO 8132 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-19:37:16:322 ERROR 8132 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+16:13:25:745  INFO 12784 --- [main] c.h.service.impl.ItemServiceImplTest     : Starting ItemServiceImplTest using Java 11.0.25 on PeiDi with PID 12784 (started by 18082 in C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-service)
+16:13:25:752 DEBUG 12784 --- [main] c.h.service.impl.ItemServiceImplTest     : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:13:25:753  INFO 12784 --- [main] c.h.service.impl.ItemServiceImplTest     : The following 1 profile is active: "dev"
+16:13:26:893  INFO 12784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:13:26:897  INFO 12784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:13:26:933  INFO 12784 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+16:13:29:785  INFO 12784 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:13:30:255  INFO 12784 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:13:30:258  INFO 12784 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:13:30:289  INFO 12784 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:13:30:457  INFO 12784 --- [main] c.h.service.impl.ItemServiceImplTest     : Started ItemServiceImplTest in 5.055 seconds (JVM running for 6.141)
+16:13:31:070  WARN 12784 --- [main] com.hmall.service.impl.ItemServiceImpl   : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@14091e24] Transaction not enabled
+16:13:31:077  INFO 12784 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:13:43:415 ERROR 12784 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
 
 java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110) ~[mysql-connector-java-8.0.23.jar:8.0.23]
@@ -61,7 +61,7 @@ java.sql.SQLNonTransientConnectionException: Could not create connection to data
 	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.27.jar:5.3.27]
 	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.27.jar:5.3.27]
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.27.jar:5.3.27]
-	at com.hmall.service.impl.ItemServiceImpl$$EnhancerBySpringCGLIB$$17cee4d0.deductStock(<generated>) ~[classes/:na]
+	at com.hmall.service.impl.ItemServiceImpl$$EnhancerBySpringCGLIB$$5fca1568.deductStock(<generated>) ~[classes/:na]
 	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34) ~[test-classes/:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]

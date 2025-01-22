@@ -1,4 +1,5 @@
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\utils\WebUtils.java
+C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\config\MvcConfig.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\exception\BadRequestException.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\exception\BizIllegalException.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\domain\R.java
@@ -7,6 +8,7 @@ C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务0
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\exception\ForbiddenException.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\utils\CollUtils.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\config\JsonConfig.java
+C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\interceptor\UserInfoInterceptor.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\exception\DbException.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\utils\UserContext.java
 C:\Users\18082\Desktop\java学习\SpringCloud微服务—资料\day03-微服务01\资料\hmall\hm-common\src\main\java\com\hmall\common\utils\CookieBuilder.java

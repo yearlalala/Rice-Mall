@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.hmall.service.impl.ItemServiceImplTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.459 s <<< FAILURE! - in com.hmall.service.impl.ItemServiceImplTest
-deductStock  Time elapsed: 12.405 s  <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 18.471 s <<< FAILURE! - in com.hmall.service.impl.ItemServiceImplTest
+deductStock  Time elapsed: 12.374 s  <<< ERROR!
 com.hmall.common.exception.BizIllegalException: 更新库存异常，可能是库存不足!
 	at com.hmall.service.impl.ItemServiceImplTest.deductStock(ItemServiceImplTest.java:34)
 Caused by: org.mybatis.spring.MyBatisSystemException: 
