@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="seata-tc.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <script-file value="$PROJECT_DIR$/../../../day05-服务保护和分布式事务/资料/seata-tc.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="b91cb084-31ed-439c-8a16-6f1483c45895" />
+    <method v="2" />
+  </configuration>
+</component>

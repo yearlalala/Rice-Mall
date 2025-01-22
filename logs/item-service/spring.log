@@ -2417,3 +2417,14 @@ Caused by: com.alibaba.nacos.api.exception.NacosException: Client not connected,
 16:11:52:654  INFO 21576 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
 16:11:52:692  INFO 21576 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
 16:11:52:796  INFO 21576 --- [main] com.hmall.item.ItemApplication           : Started ItemApplication in 11.395 seconds (JVM running for 12.178)
+16:57:10:608  WARN 21576 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+16:57:10:608  WARN 21576 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+16:57:10:611  WARN 21576 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+16:57:10:613  WARN 21576 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+16:57:10:891  INFO 21576 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+16:57:10:893  INFO 21576 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+16:57:11:229  INFO 21576 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+16:57:11:229  INFO 21576 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5967167[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+16:57:11:229  INFO 21576 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1737533511628_192.168.174.1_60634
+16:57:11:230  INFO 21576 --- [nacos-grpc-client-executor-568] c.a.n.c.remote.client.grpc.GrpcClient    : [1737533511628_192.168.174.1_60634]Ignore complete event,isRunning:false,isAbandon=false
+16:57:11:234  INFO 21576 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@69bb404[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 569]
